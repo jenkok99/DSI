@@ -21,6 +21,7 @@ img {
 h1,h2,h3,h4,h5,h6 {
 	font-weight: inherit;
 	font-size: inherit;
+	color: #1F2E35;
 }
 
 html,body {
@@ -41,8 +42,17 @@ button {
 	border-radius: 4px;
 }
 
+button:hover{
+	background-color: white;
+	color:  #EE4248;
+	border: 2px solid #EE4248;
+}
+
 span {
 	color: #EE4248;
+}
+p {
+	color: #30444E;
 }
 
 /* =====adaptive===== */
@@ -124,6 +134,9 @@ span {
 	font-weight: 400;
 	color: #1F2E35CC;
 }
+.menu__link:hover{
+	text-decoration: underline;
+}
 .page {
 	flex: 1 1 auto;
 }
@@ -142,13 +155,11 @@ span {
 .main-block__title {
 	font-size: 48px;
 	font-weight: 700;
-	color: #1F2E35;
 	margin-bottom: 20px;
 }
 .main-block__subtitle {
 	font-size: 20px;
 	font-weight: 400;
-	color: #30444E;
 	margin-bottom: 20px;
 }
 .main-block__content {}
@@ -168,13 +179,11 @@ span {
 .welcome-block__title {
 	font-size: 32px;
 	font-weight: 500;
-	color: #1F2E35;
 	margin-bottom: 20px;
 }
 .welcome-block__subtitle {
 	font-size: 18px;
 	font-weight: 500;
-	color: #30444E;
 	margin-bottom: 20px;
 }
 .welcome-block__content {
